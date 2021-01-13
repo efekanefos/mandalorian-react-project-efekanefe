@@ -11,8 +11,7 @@
 - React.js
 - Bootstrap 5
 
-## Screenshots
-
-### FullPage
+## FullPage Screenshot
 
 
+![screencapture-react-efekanefe-stackblitz-io-2021-01-13-20_15_00](https://user-images.githubusercontent.com/54044105/104489460-b86b3100-55e0-11eb-9d95-667b9141ef6f.png)
