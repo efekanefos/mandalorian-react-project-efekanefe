@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Goldman&display=swap");
+
+#navbar {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+}
+
+.navbar-brand {
+  font-family: "Press Start 2P", cursive;
+}
+
+.page-header {
+  height: 80vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://pyxis.nymag.com/v1/imgs/a37/d4f/0ce40e4ebb623bc3d06f7985ad05b11f18-the-mandalorian.rsocial.w1100.jpg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  filter: brightness(1);
+  transition: filter 1s ease-in;
+}
+
+#characters {
+  font-family: "Press Start 2P", cursive;
+  background: #020014;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#characters img {
+  width: 220px;
+  height: 310px;
+  filter: brightness(0.5);
+  border-radius: 10px;
+}
+
+#characters img:hover {
+  filter: brightness(1);
+  transition: all 0.5s;
+}
+
+#about {
+  background-color: #a2a8a7;
+}
+#characters h3 {
+  font-family: "Press Start 2P", cursive;
+}
+
+#about #mandoimg,
+#about #moffimg,
+#about #yodaimg,
+#about #kuilimg {
+  width: 450px;
+  height: 350px;
+}
+
+#about #mandoinfo,
+#about #gideoninfo,
+#about #yodainfo,
+#about #kuilinfo {
+  width: 35rem;
+  text-align: justify;
+}
+
+#about p,
+h3 {
+  font-family: "Goldman", cursive;
+  font-size: 1.2rem;
+}
+
+#footer {
+  background-color: gray;
+}
+
+#footer #exampleFormControlInput1 {
+  width: 40vw;
+}
+
+#footer ul {
+  list-style: none;
+}
+
+#footer ul a {
+  text-decoration: none;
+}
+
+#footer ul a li {
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  #about #mandoimg,
+  #about #moffimg,
+  #about #yodaimg,
+  #about #kuilimg {
+    width: 18rem;
+    height: 350px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #about #mandoinfo,
+  #about #gideoninfo,
+  #about #yodainfo,
+  #about #kuilinfo {
+    width: 15rem;
+    text-align: justify;
+  }
+  #logo {
+    font-size: 0.9rem;
+  }
+}
+
+#slide1 {
+  background-color: #a2a8a7;
+  font-family: "Goldman", cursive;
+}
+
+#episode {
+  background-color: #a2a8a7;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#epback h1 {
+  font-family: "Goldman", cursive;
+}
+
+#epback {
+  background-color: #a2a8a7;
+}
+
+#episode a {
+  background-color: #a2a8a7;
+}
+
+#episode span {
+  color: black;
+  font-family: "Goldman", cursive;
+}
+
+#episode span:active {
+  color: gray;
+}
+
+#myTabContent {
+  font-family: "Goldman", cursive;
+}
+
+#s1list,
+#s2list {
+  list-style: none;
+  padding-top: 10px;
+}
+
+#s1list a,
+#s2list a {
+  padding-bottom: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+#s1list a:hover,
+#s2list a:hover {
+  color: rgb(63, 63, 63);
+}
