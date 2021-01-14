@@ -4,7 +4,7 @@ function Slide() {
   return (
     <div id="slide1">
       <h1 className="text-center pb-4">Some Cool Wallpapers For Your PC</h1>
-      <div id="slide" className="container pb-5">
+      <div data-aos="zoom-in-up" id="slide" className="container pb-5">
         <div
           id="carouselExampleFade"
           class="container carousel slide carousel-fade"

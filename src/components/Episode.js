@@ -4,7 +4,7 @@ function Episode() {
   return (
     <div id="epback" className="pt-5 pb-5">
       <h1 className="text-center">Episode List</h1>
-      <div id="episode" className="container">
+      <div data-aos="zoom-in" id="episode" className="container">
         <div className="row">
           <ul className="nav nav-tabs" id="myTab" role="tablist">
             <li className="nav-item" role="presentation">

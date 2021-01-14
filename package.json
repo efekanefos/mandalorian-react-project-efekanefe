@@ -5,6 +5,7 @@
   "dependencies": {
     "@babel/runtime": "7.12.5",
     "@popperjs/core": "2.6.0",
+    "aos": "^2.3.4",
     "bootstrap": "5.0.0-beta1",
     "popper.js": "1.16.1",
     "react": "17.0.0",
