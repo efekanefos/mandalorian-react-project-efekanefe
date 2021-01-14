@@ -27,7 +27,7 @@ function Slide() {
             </div>
             <div class="carousel-item">
               <img
-                src="https://initiate.alphacoders.com/images/110/cropped-1920-1080-1106672.jpg?746"
+                src="https://images8.alphacoders.com/105/thumb-1920-1056657.jpg"
                 class="d-block w-100"
                 alt="3"
               />
